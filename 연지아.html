@@ -16,6 +16,19 @@
             <div id="연지아3">21:00: “서버 오류 점검 중”이라며 개인실에 머물렀다고 진술</div>
             <div id="연지아4">21:20: 서버실에서 정상 백업 수행 후 복귀</div>
             <div id="뒤로"> <a href="index.html">뒤로</a></div>
+            <div id="흠">(흠...)</div>
+
+            <script type="module" src="./src/main.js"></script>
+
+            <!-- ✅ 추가된 스크립트 -->
+            <script>
+                const hmm = document.getElementById('흠');
+                const newText = '개인실에 정말 있었을까...? 증거들을 살펴봐야겠어';
+
+                hmm.addEventListener('click', () => {
+                    hmm.textContent = newText;
+                });
+            </script>
         </div>
     </div>
 
@@ -23,50 +36,6 @@
 
 
     <script type="module" src="./src/main.js"></script>
-</body>
-
-</html>
-
-<!doctype html>
-<html lang="ko">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>텍스트 클릭 변환</title>
-    <style>
-        body {
-            font-family: 'Noto Sans KR', sans-serif;
-            background: #f7f7fb;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .trigger {
-            cursor: pointer;
-            color: #8a8a8a;
-            font-size: 1.2rem;
-            user-select: none;
-        }
-    </style>
-</head>
-
-<body>
-    <span id="trigger" class="trigger">(흠......)</span>
-
-
-    <script>
-        const trigger = document.getElementById('trigger');
-        const newText = '개인실에 정말 있었을까...?\n증거들을 살펴봐야겠어';
-
-
-        trigger.addEventListener('click', () => {
-            trigger.textContent = newText;
-        });
-    </script>
 </body>
 
 </html>
