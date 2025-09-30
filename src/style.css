@@ -1,0 +1,189 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(59, 59, 59);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+#box {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    background-position: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    /* 위에서 아래로 쌓기 */
+    justify-content: center;
+    /* 세로 중앙 */
+    align-items: center;
+    /* 가로 중앙 */
+    text-align: center;
+    /* 텍스트도 가운데 */
+
+}
+
+#story7 {
+
+    background-color: rgb(255, 193, 70);
+}
+
+#story8 {
+
+    background-color: rgb(255, 193, 70);
+}
+
+#story9 {
+
+    background-color: rgb(255, 193, 70);
+}
+
+#story10 {
+
+    background-color: rgb(255, 193, 70);
+}
+
+#box>div {
+    margin-bottom: 16px;
+}
+
+#box2 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    background-position: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+#box2>div {
+    margin-bottom: 12px;
+    /* 각 줄 사이 간격 */
+}
+
+#뒤로 {
+    display: inline;
+    background-color: rgb(255, 193, 70);
+}
+
+#증거확인 {
+    display: inline;
+    background-color: rgb(255, 193, 70);
+}
+
+#box3 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    background-position: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+
+    display: flex;
+    flex-direction: column;
+    /* 위에서 아래로 쌓기 */
+    justify-content: center;
+    /* 세로 중앙 */
+    align-items: center;
+    /* 가로 중앙 */
+    text-align: center;
+    /* 텍스트도 가운데 */
+
+
+}
+
+#box3>div {
+    margin-bottom: 16px;
+}
+
+#증거1 {
+    background-color: rgb(255, 193, 70);
+}
+
+#증거2 {
+    background-color: rgb(255, 193, 70);
+}
+
+#증거3 {
+    background-color: rgb(255, 193, 70);
+}
+
+#증거4 {
+    background-color: rgb(255, 193, 70);
+}
+
+#증거5 {
+    background-color: rgb(255, 193, 70);
+}
+
+#증거6 {
+    background-color: rgb(255, 48, 48);
+}
+
+a.highlight {
+    color: rgb(255, 255, 255) !important;
+
+}
+
+#범인1 {
+    background-color: rgb(255, 193, 70);
+}
+
+#범인2 {
+    background-color: rgb(255, 193, 70);
+}
+
+#범인3 {
+    background-color: rgb(255, 193, 70);
+}
+
+#범인4 {
+    background-color: rgb(255, 193, 70);
+}
+
+#범인공개 {
+    background-color: rgb(255, 193, 70);
+    display: inline;
+}
+
+#처음으로 {
+    background-color: rgb(255, 193, 70);
+    display: inline;
+}
+
+#story0 {
+    font-size: 20px;
+}
