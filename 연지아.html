@@ -15,27 +15,24 @@
             <div id="연지아2">20:55: 서버에서 실험 데이터 검수</div>
             <div id="연지아3">21:00: “서버 오류 점검 중”이라며 개인실에 머물렀다고 진술</div>
             <div id="연지아4">21:20: 서버실에서 정상 백업 수행 후 복귀</div>
-            <div id="뒤로"> <a href="index.html">뒤로</a></div>
+            <div id="뒤로"><a href="index.html">뒤로</a></div>
+
+            <!-- ✅ 추가된 (흠...) -->
             <div id="흠">(흠...)</div>
-
-            <script type="module" src="./src/main.js"></script>
-
-            <!-- ✅ 추가된 스크립트 -->
-            <script>
-                const hmm = document.getElementById('흠');
-                const newText = '개인실에 정말 있었을까...? 증거들을 살펴봐야겠어';
-
-                hmm.addEventListener('click', () => {
-                    hmm.textContent = newText;
-                });
-            </script>
         </div>
     </div>
 
-
-
-
     <script type="module" src="./src/main.js"></script>
+
+    <!-- ✅ 클릭 시 텍스트 변경 -->
+    <script>
+        const hmm = document.getElementById('흠');
+        const newText = '개인실에 정말 있었을까...? 증거들을 살펴봐야겠어';
+
+        hmm.addEventListener('click', () => {
+            hmm.textContent = newText;
+        });
+    </script>
 </body>
 
 </html>
