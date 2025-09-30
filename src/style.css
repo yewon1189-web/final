@@ -206,34 +206,31 @@ a.highlight {
 #오호 {
     position: absolute;
     bottom: 10px;
-    /* 박스 하단 여백 */
     right: 10px;
-    /* 박스 우측 여백 */
-    color: #888;
-    /* 회색 글씨 */
+    color: #a1a1a1;
     cursor: pointer;
     font-size: 14px;
     transition: color 0.2s ease;
+    text-align: right;
 }
 
 #오호:hover {
-    color: #555;
+    color: #919191;
 }
+
+
 
 #comment {
     position: absolute;
     bottom: 10px;
-    /* 박스 하단 여백 */
     right: 10px;
-    /* 박스 우측 여백 */
-    color: #888;
-    /* 회색 글씨 */
+    color: #a1a1a1;
     cursor: pointer;
     font-size: 14px;
     transition: color 0.2s ease;
+    text-align: right;
 }
 
 #comment:hover {
-    color: #555;
-    /* 마우스 올리면 진하게 */
+    color: #919191;
 }
