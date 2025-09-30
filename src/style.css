@@ -196,8 +196,44 @@ a.highlight {
     cursor: pointer;
     font-size: 14px;
     transition: color 0.2s ease;
+    text-align: right;
 }
 
 #흠:hover {
     color: #919191;
+}
+
+#오호 {
+    position: absolute;
+    bottom: 10px;
+    /* 박스 하단 여백 */
+    right: 10px;
+    /* 박스 우측 여백 */
+    color: #888;
+    /* 회색 글씨 */
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+#오호:hover {
+    color: #555;
+}
+
+#comment {
+    position: absolute;
+    bottom: 10px;
+    /* 박스 하단 여백 */
+    right: 10px;
+    /* 박스 우측 여백 */
+    color: #888;
+    /* 회색 글씨 */
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+#comment:hover {
+    color: #555;
+    /* 마우스 올리면 진하게 */
 }

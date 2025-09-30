@@ -14,10 +14,24 @@
             <div id="박정우1">박정우와 대화후 정리한 내용이다.</div>
             <div id="박정우2">220:55: 사무실에서 제약사 담당자와 전화 회의</div>
             <div id="박정우3">21:00~21:20: 계약서 검토 및 화상 통화(통화 기록 확인됨)</div>
-            <div id="뒤로"> <a href="index.html">뒤로</a></div>
+            <div id="뒤로"><a href="index.html">뒤로</a></div>
+
+            <!-- ✅ 추가된 (오호) -->
+            <div id="오호">(오호)</div>
         </div>
     </div>
+
     <script type="module" src="./src/main.js"></script>
+
+    <!-- ✅ 클릭 시 텍스트 변경 스크립트 -->
+    <script>
+        const oho = document.getElementById('오호');
+        const newText = '이사람의 알리바이는 확실한것같다.';
+
+        oho.addEventListener('click', () => {
+            oho.textContent = newText;
+        });
+    </script>
 </body>
 
 </html>

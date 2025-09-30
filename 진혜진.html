@@ -17,10 +17,23 @@
             <div id="진혜진4">21:05~21:15: 센서·냉각장치 재보정</div>
             <div id="진혜진5">21:20: 전력/냉각 정상 복구</div>
             <div id="증거확인"> <a href="증거.html">증거확인</a></div>
+
+            <!-- (아직 누가 범인인지 모르겠어) -->
+            <div id="comment">(아직 누가 범인인지 모르겠어)</div>
         </div>
     </div>
 
     <script type="module" src="./src/main.js"></script>
+
+    <!-- 클릭 시 텍스트 변경 -->
+    <script>
+        const comment = document.getElementById('comment');
+        const newText = "증거를 통해서 누가 범인일지 알아보자.";
+
+        comment.addEventListener('click', () => {
+            comment.textContent = newText;
+        });
+    </script>
 </body>
 
 </html>
