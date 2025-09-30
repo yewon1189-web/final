@@ -197,7 +197,6 @@ a.highlight {
     font-size: 14px;
     transition: color 0.2s ease;
     text-align: right;
-    white-space: pre-wrap;
 }
 
 #흠:hover {
